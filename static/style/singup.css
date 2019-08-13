@@ -61,9 +61,8 @@ button{
 		margin-left:5%; 	
 	}
 	h5{
-		float: left;
-		font-size: 0
-		rem;
+		display: none;;
+		
 	}
-
+	
 }
