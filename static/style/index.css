@@ -1,0 +1,38 @@
+body {
+	font-family: "Courier New";
+	color: white;
+}
+
+.topnav {
+	color: black;
+	font-size: 1.2rem;
+	padding: 10px;
+
+	user-select: none;
+	font-family:  sans-serif;
+}
+
+.topnav:hover {
+	color: blue;
+	cursor: pointer;
+}
+
+
+
+.menu {
+	visibility: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+	.tohide {
+		display: none;
+		
+		
+	}
+	.menu {
+		visibility: visible;
+		float: right;
+	}
+	
+}
+
