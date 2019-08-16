@@ -1,6 +1,6 @@
 body {
 	font-family: "Courier New";
-	color: white;
+	color: black;
 }
 
 .topnav {
@@ -17,6 +17,9 @@ body {
 	cursor: pointer;
 }
 
+#box{
+	border:1px solid black;
+}
 
 
 .menu {
@@ -27,6 +30,8 @@ body {
 	.tohide {
 		display: none;
 		
+		color: wheat;
+		background-color: black ;
 		
 	}
 	.menu {
