@@ -3,8 +3,7 @@
 	width: 450px;
 	margin-top: 20px;
 	border-radius: 5px;
-	margin-left:25%; 
-	
+	margin-left: 25%;
 }
 
 #topbar {
@@ -13,8 +12,8 @@
 	color: aliceblue;
 	font-size: 1rem;
 	font-size: 2.5rem;
-    font-weight: bold;
-    padding: 10px;
+	font-weight: bold;
+	padding: 10px;
 }
 
 span {
@@ -23,7 +22,7 @@ span {
 	font-family: monospace;
 	user-select: none;
 }
-.name{
+.name {
 	text-transform: capitalize;
 }
 
@@ -33,37 +32,38 @@ input {
 	border: none;
 	border-bottom: 2px solid black;
 	border-radius: 4px;
-	color:blue;
+	color: blue;
 }
 
-input:focus{
+input:focus {
 	border: none;
 	border-bottom: 3px solid blue;
 	border-radius: 6px;
-
 }
 
-
-h5{
-    float: right;
-    font-family: monospace;
-}
-
-button{
+h5 {
 	float: right;
-	
-   
+	font-family: monospace;
+}
+
+button {
+	float: right;
+}
+
+select {
+	color: azure;
+	background-color: blue;
+	border-radius: 5px;
+	outline: none;
 }
 
 @media only screen and (max-width: 600px) {
 	#form {
 		width: 300px;
 		margin-top: 0px;
-		margin-left:5%; 	
+		margin-left: 5%;
 	}
-	h5{
-		display: none;;
-		
+	h5 {
+		display: none;
 	}
-	
 }

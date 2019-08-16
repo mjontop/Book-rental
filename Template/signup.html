@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 		<link rel="stylesheet" href="../static/style/singup.css" />
+		<script src="../static/scripts/signup.js"></script>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -29,15 +30,21 @@
 							<span class="col-md-6 col-12 ml-2">Enrollment No.</span>
 							<input class="col-md-5 col-6 ml-4 ml-md-0 mb-2" name="enrollment" type="text" required /><br />
 							<span class="col-md-6 col-12 ml-2">Email ID</span>
+
 							<input class="col-md-5 col-6 ml-4 ml-md-0 mb-2" name="email" type="text" required /><br />
+							<span class="col-md-6 col-12 ml-2">Select college</span>
+							<select class="col-md-5 col-5 ml-4 ml-md-0 mb-2 ">
+								<option value="Select college">AIACTR</option>
+							</select>
+
 							<span class="col-md-6 col-12 ml-2">Password</span>
-							<input class="col-md-5 col-6 ml-4 ml-md-0 mb-2" name="password" type="password" required /><br />
+							<input id="pword1" class="col-md-5 col-6 ml-4 ml-md-0 mb-2 pword " name="password" type="password" required /><br />
 							<span class="col-md-6 col-12 ml-2">Confirm Password</span>
-							<input class="col-md-5 col-6 ml-4 ml-md-0 mb-2" type="password" required /> <br />
+							<input id="pword" class="col-md-5 col-6 ml-4 ml-md-0 mb-2 pword" oninput="matchPassword()" type="password" required /> <br />
 						</div>
 					</div>
 				</form>
-				<button class="mt-2 btn-primary col-12 col-md-4 " type="button">Sign Up</button>
+				<button id="button" disabled class="mt-2 btn-primary col-12 col-md-4 " type="button">Sign Up</button>
 			</div>
 		</div>
 	</body>
