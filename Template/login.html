@@ -13,16 +13,24 @@
 		<title>Login</title>
 	</head>
 	<body>
-		<form action="" method="POST">
-		<div id="box">
-			<h1>Book rentals</h1>
-			<span>Enrollment No. </span><input type="text" required /><br /><br />
+		<div id="form">
+			<form action="" method="post">
+				<div>
+					<div id="topbar">
+						Book Rentals
+						<h5>Signing Up</h5>
+					</div>
+					<br />
 
-			<span>Password </span><input type="password" required /><br />
-			<br />
-			<button type="Submit" class="btn btn-primary" >Login</button>
-			<div class="sign  center">Don't Have Account ? <a href="./signup.html">Sign Up</a></div>
-		</form>
+					<div class="row">
+						<span class="col-md-6 col-12 ml-2">Enrollment no.</span>
+						<input class=" name col-md-5 col-6 ml-4 ml-md-0 mb-2" name="name" type="text" required /><br />
+						<span class="col-md-6 col-12 ml-2">Password</span>
+						<input class="col-md-5 col-6 ml-4 ml-md-0 mb-2" name="enrollment" type="password" required /><br />
+					</div>
+				</div>
+				<input id="button" class="mt-2 btn-primary col-12 col-md-4 " type="submit" value="Log In" />
+			</form>
 		</div>
 	</body>
 </html>
