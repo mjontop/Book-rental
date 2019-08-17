@@ -16,6 +16,11 @@
 	padding: 10px;
 }
 
+h5 {
+	float: right;
+	font-family: monospace;
+}
+
 span {
 	font-size: 1.4rem;
 	padding: 10px;
@@ -27,6 +32,7 @@ span {
 }
 
 input {
+	
 	margin-bottom: 5px;
 	outline: none;
 	border: none;
@@ -41,12 +47,7 @@ input:focus {
 	border-radius: 6px;
 }
 
-h5 {
-	float: right;
-	font-family: monospace;
-}
-
-button {
+#button {
 	float: right;
 }
 
@@ -65,5 +66,18 @@ select {
 	}
 	h5 {
 		display: none;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.tohide {
+		display: none;
+
+		color: wheat;
+		background-color: black;
+	}
+	.menu {
+		visibility: visible;
+		float: right;
 	}
 }
