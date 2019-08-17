@@ -1,22 +1,58 @@
-div {
-	margin-top:15px; 
-	margin-left: 40%;
+#form {
 	border: 1px solid black;
+	width: 450px;
+	margin-top: 20px;
 	border-radius: 5px;
-	text-align: center;
-	height: fit-content;
-	width: fit-content;
-	font-size: 2rem;
+	margin-left: 25%;
 }
 
-input {
-	float: right;
-	font-size: 1.3rem;
-	background-color: lightpink;
-	font-family: monospace;
-	margin-right: 4px;
-	border-radius: 5px;
+
+
+#topbar {
+	margin-top: 0px;
+	background-color: darkblue;
+	color: aliceblue;
+	font-size: 1rem;
+	font-size: 2.5rem;
+	font-weight: bold;
+	padding: 10px;
 }
+
+
+h5 {
+	float: right;
+	font-family: monospace;
+}
+
+
+span {
+	font-size: 1.4rem;
+	padding: 10px;
+	font-family: monospace;
+	user-select: none;
+}
+
+#button {
+	float: right;
+}
+
+
+input {
+
+	margin-bottom: 5px;
+	outline: none;
+	border: none;
+	border-bottom: 2px solid black;
+	border-radius: 4px;
+	color: blue;
+}
+
+input:focus {
+	border: none;
+	border-bottom: 3px solid blue;
+	border-radius: 6px;
+}
+
 button {
 	border: 1px solid blue;
 	font-size: 2rem;
@@ -32,35 +68,32 @@ button {
 	text-align: center;
 	margin-bottom: 2px;
 }
-
-@media only screen and (max-width: 800px) {
-	div {
-		margin-left: 15%;
-		font-size: 1rem;
-		
-		
-	}
-	button {
-		font-size: 1rem;
-		border-radius: 5px;
-		margin-top: 2px;
-		margin-left: 30%;
-	}
-	input {
-		width:200px;
-	}
-	#box{
-		margin-left: 20px;
-		
-	}
 	
+
+@media only screen and (max-width: 600px) {
+	#form {
+		width: 300px;
+		margin-top: 0px;
+		margin-left: 5%;
+	}
+	h5 {
+		display: none;
+	}
+	#box {
+		margin-left: 20px;
+	}
+
 }
 
-h1{
-	margin-top: 0px; 
-	background-color:darkblue;
-	color: aliceblue;
-	font-size: 1rem;
-	margin-bottom:200px; 
+@media only screen and (max-width: 768px) {
+	.tohide {
+		display: none;
 
+		color: wheat;
+		background-color: black;
+	}
+	.menu {
+		visibility: visible;
+		float: right;
+	}
 }
