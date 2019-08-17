@@ -6,8 +6,6 @@
 	margin-left: 25%;
 }
 
-
-
 #topbar {
 	margin-top: 0px;
 	background-color: darkblue;
@@ -18,12 +16,10 @@
 	padding: 10px;
 }
 
-
 h5 {
 	float: right;
 	font-family: monospace;
 }
-
 
 span {
 	font-size: 1.4rem;
@@ -36,9 +32,7 @@ span {
 	float: right;
 }
 
-
 input {
-
 	margin-bottom: 5px;
 	outline: none;
 	border: none;
@@ -53,22 +47,11 @@ input:focus {
 	border-radius: 6px;
 }
 
-button {
-	border: 1px solid blue;
-	font-size: 2rem;
-	border-radius: 5px;
-	background-color: blue;
-	margin-bottom: 4px;
-	color: wheat;
-}
-.sign {
-	border: 0;
-	font-size: 1rem;
+div.col-12 {
+	padding: 10px;
+	font-family: "Courier New", Courier, monospace;
 	font-weight: bold;
-	text-align: center;
-	margin-bottom: 2px;
 }
-	
 
 @media only screen and (max-width: 600px) {
 	#form {
@@ -78,22 +61,5 @@ button {
 	}
 	h5 {
 		display: none;
-	}
-	#box {
-		margin-left: 20px;
-	}
-
-}
-
-@media only screen and (max-width: 768px) {
-	.tohide {
-		display: none;
-
-		color: wheat;
-		background-color: black;
-	}
-	.menu {
-		visibility: visible;
-		float: right;
 	}
 }

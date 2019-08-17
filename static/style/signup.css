@@ -58,6 +58,12 @@ select {
 	outline: none;
 }
 
+div.col-12{
+	padding: 10px;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: bold;
+}
+
 @media only screen and (max-width: 600px) {
 	#form {
 		width: 300px;
@@ -69,15 +75,3 @@ select {
 	}
 }
 
-@media only screen and (max-width: 768px) {
-	.tohide {
-		display: none;
-
-		color: wheat;
-		background-color: black;
-	}
-	.menu {
-		visibility: visible;
-		float: right;
-	}
-}
