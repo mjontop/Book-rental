@@ -1,9 +1,10 @@
 body {
+
 	font-family: "Courier New";
 	color: black;
 }
 
-.topnav {
+.topnav{
 	color: black;
 	font-size: 1.2rem;
 	padding: 10px;
@@ -21,9 +22,22 @@ body {
 	border:1px solid black;
 }
 
+a{
+	color: black;
+}
+
+a:hover{
+	color: blue;
+	text-decoration: none;
+}
 
 .menu {
 	visibility: hidden;
+}
+
+button > a{
+	color: blue;
+
 }
 
 @media only screen and (max-width: 768px) {
