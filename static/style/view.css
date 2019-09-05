@@ -55,11 +55,10 @@ div#books > h2 {
 }
 
 @media only screen and (max-width: 768px) {
-	.tohide > a {
-		color: white;
-	}
 	.tohide {
 		display: none;
+
+		color: wheat;
 		background-color: black;
 	}
 	.menu {
